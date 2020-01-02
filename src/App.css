@@ -1,0 +1,32 @@
+:root{
+  --mainBlue:#2a2a72;
+  --lightBlue:#009ffd;
+  --mainWhite: #f3f3f3;
+  --mainDark: #232528;
+  --mainYellow: #ffa400;
+  --organicColor: #85b80b;
+  --osbgColor:#c7c7c7;
+  --ostextBlack: #303030;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif !important;
+  background: var(--mainWhite) !important;
+  color: var(--mainDark) !important;
+}
+.text-title {
+  font-family: 'Open Sans', sans-serif;
+  letter-spacing: 0.3rem;
+  text-transform: uppercase;
+}
+.text-blue {
+  color: var(--mainBlue);
+}
+.text-black {
+  color: var(--ostextBlack);
+}
+.text-bright {
+  color: var(--lightBlue);
+}
+
+/* Logo designing */
